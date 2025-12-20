@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Evaluate variables</title>
+    </head>
+    <body>
+        <p>Click the button to execute the code</p>
+        <button onclick="myFunction()">Try it!!</button>
+        <p id="result"></p>
+
+        <script>
+            function myFunction() {
+                var x = 20 + 5;   // fixed
+                var y = 10;
+                var a = x + y;
+                var b = 2 * 2;
+                var c = x - y;
+                var res = a + b + c;
+
+                document.getElementById("result").innerHTML = res;
+            }
+        </script>
+    </body>
+</html>
